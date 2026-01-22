@@ -1,0 +1,140 @@
+body {
+    background-color: e56b6f;
+    font-family: var(--body-font-family);
+    padding: 50px;
+    color: #121212;
+
+}
+.product-table {
+border-collapse: collapse;
+}
+.product-table td {
+    max-width: 670px;
+margin-top: 0;
+font-family: var(--body-font-family);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.4;
+}
+.product-table img {
+    width: 100%;
+    object-fit: cover;
+}
+.product description {
+    padding: 10px;
+    font-family: var(--body-font-family);
+}
+.table-container {
+display: flex;
+justify-content: flex-start;
+gap: 30px;
+.e-commerce projects: :nth-child(2) {
+    margin-left: 200px;
+    width: 50px;
+}
+}
+.e-commerce projects{
+    max-width: 670px;
+margin-top: 0;
+font-family: var(--body-font-family);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.4;
+}
+.e-commerce projects td {
+boder: 1px solid #ddd;
+padding 0px;
+margin-inline-start: 0%;
+margin-inline-end: 0%;
+width: 100px;
+border: 1px solid #ddd
+}
+.e-commerce projects img: {
+width: 50%
+object-fit: cover;
+}
+.item-info{
+    margin-top: 10px;
+    text-align: center;
+    font-size: medium;
+    font-family: var(--body-font-family);
+}
+.add {
+    background-color: #347bc7;
+    color: #fff;
+border-radius: 5px; /* rounds the corner */
+
+}
+.add: hover {
+    background-color: #0056b3; /* darken blue on hover */ 
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 20px; /* space between image and text */
+      max-width: 600px;
+      margin: 20px auto;
+    }
+        .container {
+          display: flex;
+          align-items: flex-start;
+          gap: 80px; /* large spacing between image and table */
+          margin: 20px;
+        }
+    
+        .container img {
+          width: 200px; /* medium-sized image */
+          height: auto;
+          border-radius: 6px;
+        }
+    
+        .separator {
+          border-left: 2px solid #333; /* vertical line */
+          height: auto;
+        }
+    
+        table {
+          border-collapse: collapse;
+          border: 2px solid #333;
+          width: 450px; /* 3x larger than before (150px → 450px) */
+          font-size: 1.2em; /* slightly larger text */
+        }
+    
+        th, td {
+          border: 2px solid #333;
+          padding: 0; /* no padding */
+          text-align: center;
+        }
+    
+        th {
+          background-color: #f2f2f2;
+        }
+      /*navigation bar*/
+      nav{
+        background-color: aqua;
+        padding: 10px 0;
+            }
+
+    nav.nav-bar ul  {
+    list-style: none; /* remove bullets */
+margin: 0;
+padding: 0;
+display: flex; /* put links in a row */
+justify-content: center; /* center nav links horizontally */
+    }
+nav.nav-bar ul li {
+margin: 0 15px; /* space between the links */
+}
+
+    nav.nav-bar ul li a: {
+      color:aliceblue; /* link color */
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 10px; /* spacing inside link */
+    }
+
+    nav.nav-bar ul li a:hover {
+      background-color: #347bc7; /* hover background */
+      color: #fff;
+      border-radius: 6px;
+    }
